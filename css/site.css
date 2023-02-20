@@ -1,0 +1,244 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url('../resources/glasscubes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+.footer {
+    background-color: white;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Scroll animations */
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: white;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+
+#welcome {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#welcomearrow {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.timeline {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.left-timeline {
+    margin-left: 30%;
+}
+
+.right-timeline {
+    margin-right: 30%;
+}
+
+/*Progress bars*/
+
+.tooltip {
+    position: relative;
+    float: right;
+    margin-right: 20%;
+}
+
+.tooltip > .tooltip-inner {
+    background: none;
+    padding: 3px 3px;
+    color: black;
+    font-weight:bolder;
+    font-size: 10px;
+}
+
+.popOver + .tooltip > .tooltip-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid gray;
+}
+
+section {
+    margin: 100px auto;
+    height: 1000px;
+}
+
+.progress {
+    border-radius: 0;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: rgb(23,44,60);
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+}
+
+/*skilbar
+*/
+
+.skills,
+.skills .skill,
+.skills .skill .skill-title,
+.skills .skill .skill-bar {
+    width: 100%;
+    float: left;
+}
+
+.skills {
+    padding: 15px;
+}
+
+.skills .skill {
+    margin-bottom: 30px;
+}
+
+.skills .skill .skill-title {
+    color: #808080;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.skills .skill .skill-bar {
+    width: 0;
+    height: 6px;
+    background: #f0f0f0;
+    transition: 1s cubic-bezier(1, 0, .5, 1);
+    -webkit-transition: 1s cubic-bezier(1, 0, .5, 1);
+    -ms-transition: 1s cubic-bezier(1, 0, .5, 1);
+}
+
+.skills.active .skill .skill-bar {
+    width: 100%;
+}
+
+.skills .skill .skill-bar span {
+    float: left;
+    width: 0%;
+    background: #1D91F2;
+    height: 6px;
+    position: relative;
+    transition: 1s cubic-bezier(1, 0, .5, 1);
+    -webkit-transition: 1s cubic-bezier(1, 0, .5, 1);
+    -ms-transition: 1s cubic-bezier(1, 0, .5, 1);
+}
+
+.skills .skill .skill-bar span b {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: right;
+    opacity: 0;
+    font-size: 14px;
+    color: #1D91F2;
+    font-weight: 400;
+    top: -13px;
+}
+
+/*Qualiteis styles*/
+
+#thumbnail {
+    height: 200px;
+    width: 200px;
+}
