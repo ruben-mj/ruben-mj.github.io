@@ -4,7 +4,7 @@
   word-break: break-all;
 }
 
-/* Provide sufficient contrast against white background */
+/* Provides sufficient contrast against white background */
 a {
   color: #0366d6;
 }
@@ -174,8 +174,7 @@ section {
     transition: width 1.5s ease-in-out;
 }
 
-/*skilbar
-*/
+/*skillbar*/
 
 .skills,
 .skills .skill,
